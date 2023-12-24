@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Navbar = (): React.ReactNode => {
   return (
-    <div className="h-[50px] flex justify-center">
+    <div className="h-[50px] flex justify-center sticky top-0 z-50 bg-black">
       <div className="w-[92%] h-full  flex justify-between">
         <div className="flex items-center gap-48">
           <div className="items-center">
@@ -13,6 +13,8 @@ const Navbar = (): React.ReactNode => {
               height={12}
               width={85}
               alt="Rabbit Icon"
+              priority
+              unoptimized
             ></Image>
           </div>
           <div className="flex items-center gap-16">
