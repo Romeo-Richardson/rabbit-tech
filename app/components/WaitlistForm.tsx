@@ -39,7 +39,7 @@ const WaitlistForm = (): React.ReactNode => {
       <p className="text-5xl">Jan 09 at 10pm PT</p>
       {isRegistered ? (
         <div className="bg-gray-600 flex justify-center rounded-xl items-center p-2">
-          <p>Thank you! You're now on our waitlist! </p>
+          <p>{`Thank you! You're now on our waitlist! `}</p>
         </div>
       ) : (
         <>
