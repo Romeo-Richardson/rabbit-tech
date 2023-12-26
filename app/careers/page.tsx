@@ -3,7 +3,7 @@ import CareersMain from "../components/CareersMain";
 import Divider from "../components/Divider";
 import CareersRoles from "../components/CareersRoles";
 
-const page = (): React.ReactNode => {
+const CareersPage = (): React.ReactNode => {
   return (
     <main className="flex min-h-screen flex-col">
       <CareersMain></CareersMain>
@@ -13,4 +13,4 @@ const page = (): React.ReactNode => {
   );
 };
 
-export default page;
+export default CareersPage;
