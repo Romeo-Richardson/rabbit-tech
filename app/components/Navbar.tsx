@@ -27,9 +27,11 @@ const Navbar = (): React.ReactNode => {
           </div>
         </div>
         <div className="flex items-center">
-          <button className="bg-red-600 text-sm  px-2 rounded-2xl">
-            waitlist
-          </button>
+          <Link href={"/waitlist"}>
+            <button className="bg-red-600 text-sm  px-2 rounded-2xl">
+              waitlist
+            </button>
+          </Link>
         </div>
       </div>
     </div>
