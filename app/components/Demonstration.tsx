@@ -12,12 +12,12 @@ const Demonstration = (): React.ReactNode => {
         </div>
         <div className="w-[65%] mx-auto mb-10">
           <p className=" text-wrap w-[85%]">
-            LAM’s modeling approach is rooted in imitation, or learning by
+            {`LAM's modeling approach is rooted in imitation, or learning by
             demonstration: it observes a human using the interface and aims to
             reliably replicate the process, even if the interface is presented
             differently or slightly changed. Instead of having a black-box model
             uncontrollably outputting actions and adapting to the application
-            during inference, LAM’s "recipe" is more observable. This means that
+            during inference, LAM's "recipe" is more observable. This means that
             once the demonstration is provided, the synthesized routine runs
             directly on the target application without the need for a busy loop
             of "observation" or "thoughts," and any technically trained human
@@ -27,7 +27,7 @@ const Demonstration = (): React.ReactNode => {
             exposed by an application and creates a "conceptual blueprint" of
             the underlying service provided by the application. LAM can be seen
             as a bridge, connecting users to these services through the
-            application’s interface.
+            application's interface.`}
           </p>
         </div>
       </div>
@@ -54,14 +54,14 @@ const Demonstration = (): React.ReactNode => {
       <div className="w-[92%] mx-auto my-10">
         <div className="w-[65%] mx-auto mb-10">
           <p className=" text-wrap w-[85%]">
-            We believe that in the long run, LAM exhibits its own version of
+            {`We believe that in the long run, LAM exhibits its own version of
             "scaling laws," [3] where the actions it learns can generalize to
             applications of all kinds, even generative ones. Over time, LAM
             could become increasingly helpful in solving complex problems
-            spanning multiple apps that require professional skills to operate.
+            spanning multiple apps that require professional skills to operate.`}
             <br />
             <br />
-            By utilizing neuro-symbolic techniques in the loop, LAM sits on the
+            {`By utilizing neuro-symbolic techniques in the loop, LAM sits on the
             very frontier of interdisciplinary scientific research in language
             modeling (LM), programming languages (PL), and formal methods (FM).
             Traditionally, the PL/FM community has focused on symbolic
@@ -79,7 +79,7 @@ const Demonstration = (): React.ReactNode => {
             the best parts of both worlds, making the task of creating scalable
             and explainable learning agents a feasible one. Yet to date, no one
             has put cutting-edge neuro-symbolic techniques into production — LAM
-            seeks to pioneer this direction.
+            seeks to pioneer this direction.`}
           </p>
         </div>
       </div>
@@ -92,7 +92,7 @@ const Demonstration = (): React.ReactNode => {
         </div>
         <div className="w-[65%] mx-auto mb-10">
           <p className=" text-wrap w-[85%]">
-            LAM does not live in a vacuum. In order to efficiently leverage the
+            {`LAM does not live in a vacuum. In order to efficiently leverage the
             power of LAM to execute tasks on behalf of users on dedicated
             hardware, we designed new platforms to schedule and manage
             LAM-powered routines. In addition, LAM interacts with applications
@@ -100,7 +100,7 @@ const Demonstration = (): React.ReactNode => {
             objective is not sufficient: LAM and their peripheral software need
             to know how to do it in a humanizing, respectful way. This is
             further broken down into several key elements, in addition to our
-            core model development, to support our system:
+            core model development, to support our system:`}
           </p>
         </div>
       </div>
