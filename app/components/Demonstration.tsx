@@ -35,7 +35,9 @@ const Demonstration = (): React.ReactNode => {
         <div>
           <video
             className="w-[60%] mx-auto rounded-lg"
-            src={require("../../public/learningbydemo-0.mp4")}
+            src={
+              "https://test-bucket-romeo.s3.us-west-1.amazonaws.com/learningbydemo-0.mp4"
+            }
             autoPlay
             loop
             muted

@@ -4,7 +4,9 @@ const HomeFactoryVideo = (): React.ReactNode => {
   return (
     <div className="min-h-screen">
       <video
-        src={require("../../public/rabbits-factory.mp4")}
+        src={
+          "https://test-bucket-romeo.s3.us-west-1.amazonaws.com/rabbits-factory.mp4"
+        }
         loop
         muted
         autoPlay

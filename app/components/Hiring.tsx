@@ -8,7 +8,9 @@ const Hiring = (): React.ReactNode => {
       </div>
       <div className="flex justify-center">
         <video
-          src={require("../../public/rabbits-hiring.mp4")}
+          src={
+            "https://test-bucket-romeo.s3.us-west-1.amazonaws.com/rabbits-hiring.mp4"
+          }
           className="w-full"
           autoPlay
           loop

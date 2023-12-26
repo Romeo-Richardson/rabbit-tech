@@ -4,7 +4,7 @@ import HowLAMSection, { howLAMProps } from "./HowLAMSection";
 const HowLAM = (): React.ReactNode => {
   const howLAMSections: howLAMProps[] = [
     {
-      video: require("../../public/0.mp4"),
+      video: "https://test-bucket-romeo.s3.us-west-1.amazonaws.com/0.mp4",
       videoNumber: "01",
       videoHeading: "intention",
       videoHeadingColor: "text-[#ffb901]",
@@ -17,7 +17,7 @@ const HowLAM = (): React.ReactNode => {
       overlayColor: "bg-[#ffb901]",
     },
     {
-      video: require("../../public/1.mp4"),
+      video: "https://test-bucket-romeo.s3.us-west-1.amazonaws.com/1.mp4",
       videoNumber: "02",
       videoHeading: "interface",
       videoHeadingColor: "text-[#f70000]",
@@ -30,7 +30,7 @@ const HowLAM = (): React.ReactNode => {
       overlayColor: "bg-[#f70000]",
     },
     {
-      video: require("../../public/2.mp4"),
+      video: "https://test-bucket-romeo.s3.us-west-1.amazonaws.com/2.mp4",
       videoNumber: "03",
       videoHeading: "interaction",
       videoHeadingColor: "text-[#53c83c]",
