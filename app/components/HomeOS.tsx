@@ -4,7 +4,7 @@ import RabbitOSImage from "../assets/rabbit-os.png";
 
 const HomeOS = (): React.ReactNode => {
   return (
-    <div className="h-[275px] w-[92vw] flex mx-auto">
+    <div className="h-[275px] w-[92vw] flex mx-auto mb-36 mt-6">
       <div className="w-1/2 h-full pt-16">
         <Image
           src={RabbitOSImage}

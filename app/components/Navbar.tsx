@@ -1,6 +1,7 @@
 import React from "react";
 import RabbitIcon from "../assets/rabbit-icon.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = (): React.ReactNode => {
   return (
@@ -8,19 +9,21 @@ const Navbar = (): React.ReactNode => {
       <div className="w-[92%] h-full  flex justify-between">
         <div className="flex items-center gap-48">
           <div className="items-center">
-            <Image
-              src={RabbitIcon}
-              height={12}
-              width={85}
-              alt="Rabbit Icon"
-              priority
-              unoptimized
-            ></Image>
+            <Link href={"/"}>
+              <Image
+                src={RabbitIcon}
+                height={12}
+                width={85}
+                alt="Rabbit Icon"
+                priority
+                unoptimized
+              ></Image>
+            </Link>
           </div>
           <div className="flex items-center gap-16">
-            <p>research</p>
-            <p>updates</p>
-            <p>careers</p>
+            <Link href={"/research"}>research</Link>
+            <Link href={"/updates"}>updates</Link>
+            <Link href={"/careers"}>careers</Link>
           </div>
         </div>
         <div className="flex items-center">
