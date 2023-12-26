@@ -21,7 +21,9 @@ const ComingSoon = (): React.ReactNode => {
       <div className="flex justify-center items-center overflow-y-hidden h-[725px]">
         <video
           className="w-screen"
-          src={require("../../public/rabbits-soon.mp4")}
+          src={
+            "https://test-bucket-romeo.s3.us-west-1.amazonaws.com/rabbits-soon.mp4"
+          }
           autoPlay
           muted
           loop
