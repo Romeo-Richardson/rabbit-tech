@@ -33,11 +33,11 @@ const SystemOverview = (): React.ReactNode => {
     },
   ];
   return (
-    <div className="h-[625px]  w-[92%] mx-auto flex flex-col">
+    <div className="h-[625px] max-lg:h-auto  w-[92%] mx-auto flex flex-col">
       <div className=" h-24 flex items-center">
-        <p className="text-5xl">System Overview</p>
+        <p className="text-5xl max-md:text-3xl">System Overview</p>
       </div>
-      <div className="grow flex gap-6">
+      <div className="grow flex max-lg:flex-wrap max-lg:justify-center gap-6">
         {overviewCards.map((card, key) => (
           <SystemOverviewCard key={key} {...card}></SystemOverviewCard>
         ))}

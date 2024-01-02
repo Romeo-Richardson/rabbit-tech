@@ -46,7 +46,7 @@ const HowLAM = (): React.ReactNode => {
   return (
     <div className="w-[92%] mx-auto mb-20">
       <div className="h-24 flex items-center my-12">
-        <p className="text-5xl">{`how LAM's work`}</p>
+        <p className="text-5xl max-md:text-3xl">{`how LAM's work`}</p>
       </div>
       <div className="flex flex-col items-center gap-12">
         {howLAMSections.map((section, key) => (

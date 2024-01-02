@@ -20,10 +20,13 @@ const Navbar = (): React.ReactNode => {
               ></Image>
             </Link>
           </div>
-          <div className="flex items-center gap-16">
+          <div className="flex items-center gap-16 max-md:hidden">
             <Link href={"/research"}>research</Link>
             <Link href={"/updates"}>updates</Link>
             <Link href={"/careers"}>careers</Link>
+            <a href={"https://github.com/Romeo-Richardson/rabbit-tech"}>
+              source code
+            </a>
           </div>
         </div>
         <div className="flex items-center">

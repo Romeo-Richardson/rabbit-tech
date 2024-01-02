@@ -3,7 +3,7 @@ import React from "react";
 const Hiring = (): React.ReactNode => {
   return (
     <div className="mx-auto w-[92%]">
-      <div className="text-5xl flex items-center">
+      <div className="text-5xl max-md:text-3xl flex items-center">
         <p>{`we're now hiring`}</p>
       </div>
       <div className="flex justify-center">
